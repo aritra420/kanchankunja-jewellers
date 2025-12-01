@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanchan Kunja Jewellers – Haldia</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="https://wa.me/917001068472" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <header>
+    <h1>KANCHAN KUNJA JEWELLERS</h1>
+    <p>Pure Gold • Pure Trust • Haldia</p>
+  </header>
+
+  <section class="hero">
+    <h2>Today's Live Gold Rate</h2>
+    <div class="rates">
+      <div class="rate-box">22K <span id="rate22">₹11899</span>/gram</div>
+      <div class="rate-box">24K <span id="rate24">₹12981</span>/gram</div>
+    </div>
+  </section>
+
+  <section class="collections">
+    <h2 class="making">Making Charge Only ₹800 per gram</h2>
+    <div class="grid">
+      <div class="card" onclick="openGallery('Bridal Necklace Set',['https://media.istockphoto.com/id/1189191586/photo/beautiful-indian-traditional-woman-portrait.jpg?s=612x612&w=0&k=20&c=HU6Y7Et7ZZaeWuWi-12r-WKlwuzMUYF31HjCebAfxIY=','https://media.istockphoto.com/id/1341389320/photo/portrait-of-very-beautiful-young-indian-lady-in-luxurious-costume-with-makeup-and-heavy.jpg?s=612x612&w=0&k=20&c=Ci8lpiG7-SpgDxHp5RwqLlycyrt6YqUF8N2vtCQPCGE=','https://media.istockphoto.com/id/944588416/photo/beautiful-indian-young-women-portrait-with-indian-traditional-jewelry.jpg?s=612x612&w=0&k=20&c=YqKOXaM19MZMeeeligdg3LRLheFiRnxoJlUWVeD8J3A=','https://media.istockphoto.com/id/1433047466/photo/indian-young-woman-diwali-celebrate-stock-photo.jpg?s=612x612&w=0&k=20&c=VPxkdmYRaDeivOfoYGmzQWKBQsq1CeSi8yw9n8iNX8k='])">
+        <img src="https://media.istockphoto.com/id/1433047466/photo/indian-young-woman-diwali-celebrate-stock-photo.jpg?s=612x612&w=0&k=20&c=VPxkdmYRaDeivOfoYGmzQWKBQsq1CeSi8yw9n8iNX8k=" alt="Bridal">
+        <p>Bridal Necklace Set →</p>
+      </div>
+      <div class="card" onclick="openGallery('Designer Bangles',['https://media.istockphoto.com/id/1318401740/photo/indian-gold-jewellery-stock-photo.jpg?s=612x612&w=0&k=20&c=naiOnSyQfwQLWr2VN4y53BR7L51VFnc8u7wI2wVWQUg=','https://media.istockphoto.com/id/488547288/photo/wedding-gold-bracelets.jpg?s=612x612&w=0&k=20&c=xCy-7OCbvWEMyGV_Ei-Gn2XczQ5u3dsPspLJQH6mhQI=','https://media.istockphoto.com/id/1277517094/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=GbgMA4T35_f8Q3DeTYZVIUST0z5POf3MqQDr-0q_mNw=',])">
+        <img src="https://media.istockphoto.com/id/147250575/photo/three-yellow-studded-bangles-on-a-black-background.jpg?s=612x612&w=0&k=20&c=MjU2waBbnCkywENHTgoXteNT31r5vZ_H2q--4Pvn3Hc=" alt="Bangles">
+        <p>Designer Bangles →</p>
+      </div>
+      <div class="card" onclick="openGallery('Long Jhumkas',['https://media.istockphoto.com/id/1275859113/photo/beautiful-golden-pair-of-earrings-on-white-background-luxury-female-jewelry-indian.jpg?s=612x612&w=0&k=20&c=rnYjKMveyz1EwsPceIMTYPzKxwg-_UzZnxJ-CWbDk2A=','https://media.istockphoto.com/id/1133525210/photo/pair-of-fancy-golden-designer-earrings-closeup-macro-image-on-red-background.jpg?s=612x612&w=0&k=20&c=ZUknXtyeMhsS9Tdd2nRt8DkOTHc-6tmeG-KdTV_ODLU=','https://media.istockphoto.com/id/1131971827/photo/fancy-designer-golden-earrings-closeup-macro-image-on-red-background.jpg?s=612x612&w=0&k=20&c=FWSGA-HXUT3b0eOPXPOpqiEjK8dvR6RyuE14qj9XjEg='])">
+        <img src="https://media.istockphoto.com/id/1131971827/photo/fancy-designer-golden-earrings-closeup-macro-image-on-red-background.jpg?s=612x612&w=0&k=20&c=FWSGA-HXUT3b0eOPXPOpqiEjK8dvR6RyuE14qj9XjEg=" alt="Jhumka">
+        <p>Long Jhumkas →</p>
+      </div>
+      <div class="card" onclick="openGallery('Lightweight Daily Wear',['https://images.unsplash.com/photo-1633810542706-90e5ff7557be?w=800','https://media.istockphoto.com/id/486579128/photo/indian-jewellery.jpg?s=612x612&w=0&k=20&c=Dm5MUSjHXvKH_Jz7sN27lrNBRu7pnAYGz9ELiKCbwG8=','https://media.istockphoto.com/id/532981874/photo/indian-traditional-gold-necklace.jpg?s=612x612&w=0&k=20&c=qt0YuUIWgFJVWgoQuunKY3EGaFdwf06gJtGA4q-50qE='])">
+        <img src="https://images.unsplash.com/photo-1633810542706-90e5ff7557be?w=800" alt="Daily">
+        <p>Lightweight Daily Wear →</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <h2>Happy Customers</h2>
+    <div class="review-grid">
+      <div class="review-card">★★★★★<p>"Best making charge!"</p><strong>— Priya</strong></div>
+      <div class="review-card">★★★★★<p>"Calculator perfect!"</p><strong>— Rahul</strong></div>
+      <div class="review-card">★★★★★<p>"Website bohot clean"</p><strong>— Ananya</strong></div>
+    </div>
+  </section>
+
+  <section class="calculator">
+    <h2>Gold Calculator</h2>
+    <p>Enter your budget and see how much gold you can get!</p>
+    <input type="number" id="budget" placeholder="₹50,000" oninput="calculate()">
+    <div class="btns">
+      <button onclick="set(25000)">₹25,000</button>
+      <button onclick="set(50000)">₹50,000</button>
+      <button onclick="set(100000)">₹1 Lakh</button>
+    </div>
+    <div class="result">
+      <p>22K Gold: <b id="g22">0.000</b> gram</p>
+      <p>With Making Charge: <b id="final">0.000</b> gram jewellery</p>
+      <button onclick="wa()">Send on WhatsApp</button>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Visit Us</h2>
+    <p><strong>Kanchan Kunja Jewellers</strong><br>SK Nagar Market Complex, Haldia<br>Purba Medinipur, West Bengal 721635<br><br>
+    <a href="tel:+917001068472">7001068472</a> (Call / WhatsApp)</p>
+    <a href="https://maps.google.com/?q=SK+Nagar+Market+Complex+Haldia" target="_blank" class="map-btn">Open in Google Maps →</a>
+  </section>
+
+  <footer>© 2025 Kanchan Kunja Jewellers • Haldia</footer>
+
+  <!-- Gallery Modal -->
+  <div id="gallery" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.95);z-index:9999;overflow:auto;padding:20px;">
+    <div style="max-width:1200px;margin:0 auto;text-align:center;color:white;position:relative;">
+      <span onclick="document.getElementById('gallery').style.display='none'" style="position:absolute;top:10px;right:20px;font-size:3rem;cursor:pointer;">×</span>
+      <h2 id="gallery-title" style="font-size:3rem;color:#ffd700;margin:40px 0;"></h2>
+      <div id="gallery-images" class="grid"></div>
+      <a href="https://wa.me/917001068472" style="display:inline-block;background:#25d366;color:white;padding:20px 60px;border-radius:50px;margin:40px 0;font-size:1.5rem;text-decoration:none;">
+        WhatsApp Inquiry Now
+      </a>
+    </div>
+  </div>
+
+  <script>
+    function openGallery(title, images) {
+      document.getElementById('gallery-title').innerText = title;
+      let container = document.getElementById('gallery-images');
+      container.innerHTML = '';
+      images.forEach(src => {
+        container.innerHTML += `<div class="card"><img src="${src}" style="width:100%;height:450px;object-fit:cover;border-radius:20px;"></div>`;
+      });
+      document.getElementById('gallery').style.display = 'block';
+    }
+    // Baki script same rahega (rate + calculator)
+    function fetchRates(){document.getElementById('rate22').innerText='₹7,810';document.getElementById('rate24').innerText='₹8,520';
+      fetch('https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/xau/inr.json')
+        .then(r=>r.json()).then(d=>{let g24=Math.round(d.inr/31.1035);let g22=Math.round(g24*0.916);
+          countUp('rate24',g24);countUp('rate22',g22);}).catch(()=>{countUp('rate24',12981);countUp('rate22',11899);});
+    }
+    function countUp(id,target){let el=document.getElementById(id);let c=0;let t=setInterval(()=>{c+=target/60;
+      if(c>=target){el.innerText='₹'+target.toLocaleString('en-IN');clearInterval(t);}
+      else el.innerText='₹'+Math.floor(c).toLocaleString('en-IN');},40);}
+    function set(v){document.getElementById('budget').value=v;calculate();}
+    function calculate(){let amt=+document.getElementById('budget').value||0;
+      let r22=parseInt(document.getElementById('rate22').innerText.replace(/[^\d]/g,''))||7810;
+      if(amt>0){document.getElementById('g22').innerText=(amt/r22).toFixed(3);
+        document.getElementById('final').innerText=(amt/(r22+800)).toFixed(3);}}
+    function wa(){let amt=document.getElementById('budget').value||'0';let w=document.getElementById('final').innerText;
+      window.open('https://wa.me/917001068472?text=Namaste! Budget ₹'+amt+' → '+w+' gram jewellery. Designs bhejiye!');}
+    window.onload=()=>{fetchRates();setInterval(fetchRates,300000);}
+  </script>
+</body>
+</html>
